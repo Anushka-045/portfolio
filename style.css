@@ -210,7 +210,7 @@ span{
 
 .typing-text span::after {
     content: "";
-    background-color: transparent; /* 👈 remove black background */
+    background-color: transparent; 
     position: absolute;
     width: 3px;
     height: 100%;
@@ -309,10 +309,10 @@ span{
   left: 0;
   width: 100vw;
   height: 100vh;
-  object-fit: cover;    /* Super important! */
+  object-fit: cover;  
   z-index: -1;
-  opacity: 0.3;         /* You can increase this to test */
-  pointer-events: none; /* So it doesn't block clicks */
+  opacity: 0.3;         
+  pointer-events: none; 
 }
 
 .skills-grid {
@@ -358,3 +358,4 @@ span{
   margin: 2rem 0;
   opacity: 0.5;
 }
+
